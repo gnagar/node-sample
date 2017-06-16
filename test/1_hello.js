@@ -24,7 +24,7 @@ describe('GET: /hello', function () {
       }
     );
 
-    /*it('Append Hello with provided name (John)', function (done) {
+    it('Append Hello with provided name (John)', function (done) {
         chai.request(server)
           .get('/hello?name=John')
           .end(function (err, res) {
@@ -34,6 +34,6 @@ describe('GET: /hello', function () {
             done();
           });
       }
-    );*/
+    );
   }
 );
