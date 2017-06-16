@@ -1,0 +1,5 @@
+projectKey=node:hello-test
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/node:hello-test
+ceTaskId=AVyvs4KMGIORa7hsNcDk
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVyvs4KMGIORa7hsNcDk
