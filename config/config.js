@@ -10,8 +10,7 @@ var config = {
     app: {
       name: 'inconnect'
     },
-    port: process.env.PORT || 3000,
-    db: 'mongodb://localhost/hello-development'
+    port: process.env.PORT || 3000
   },
 
   test: {
@@ -19,8 +18,7 @@ var config = {
     app: {
       name: 'inconnect'
     },
-    port: process.env.PORT || 3000,
-    db: 'mongodb://localhost/hello-test'
+    port: process.env.PORT || 3000
   },
 
   production: {
@@ -28,8 +26,7 @@ var config = {
     app: {
       name: 'inconnect'
     },
-    port: process.env.PORT || 3000,
-    db: 'mongodb://localhost/hello-production'
+    port: process.env.PORT || 3000
   }
 };
 
