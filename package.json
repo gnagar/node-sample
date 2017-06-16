@@ -35,6 +35,6 @@
     "gulp-plumber": "^1.0.0",
     "nyc": "^8.1.0",
     "supertest": "^2.0.0",
-    "sonar-scanner" "^1.0.1"
+    "sonar-scanner": "^1.0.1"
   }
 }
