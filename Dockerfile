@@ -1,6 +1,6 @@
 FROM localhost:5000/node:7.7
 
-EXPOSE 3089
+EXPOSE 3000
 
 COPY . /app
 
