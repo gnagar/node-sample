@@ -5,7 +5,7 @@
 
 function sayHello(req, res) {
   if (!req.query.name) {
-    res.status(200).send({message: "Hello Someone"});
+    res.status(200).send({message: "Hello World"});
   } else {
     res.status(200).send({message: "Hello " + req.query.name});
   }
