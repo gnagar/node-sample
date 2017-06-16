@@ -18,13 +18,13 @@ describe('GET: /hello', function () {
           .end(function (err, res) {
             res.should.have.status(200);
             res.body.should.be.a('object');
-            expect(res.body.message).to.equal('No Name Provided');
+            expect(res.body.message).to.equal('Hello World');
             done();
           });
       }
     );
 
-    /*it('Append Hello with provided name (John)', function (done) {
+    it('Append Hello with provided name (John)', function (done) {
         chai.request(server)
           .get('/hello?name=John')
           .end(function (err, res) {
@@ -34,6 +34,6 @@ describe('GET: /hello', function () {
             done();
           });
       }
-    );*/
+    );
   }
 );
