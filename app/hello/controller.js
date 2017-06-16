@@ -4,6 +4,8 @@
 
 
 function sayHello(req, res) {
+  if(res == null){
+  }
   if (!req.query.name) {
     res.status(200).send({message: "Hello World"});
   } else {
